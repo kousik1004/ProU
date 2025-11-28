@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Virat Kohli",
+    "role": "Backend Developer",
+    "email": "virat@company.com"
+  },
+  {
+    "name": "Rohit Sharma",
+    "role": "Frontend Developer",
+    "email": "rohit@company.com"
+  },
+  {
+    "name": "Jasprith Bumrah",
+    "role": "Project Manager",
+    "email": "bumrah@company.com"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Implement Login API",
+    "description": "Create JWT login endpoint for the dashboard.",
+    "status": "In Progress",
+    "employee_id": 1
+  },
+  {
+    "title": "Create UI for Task List",
+    "description": "Frontend task list page with filters.",
+    "status": "Pending",
+    "employee_id": 2
+  },
+  {
+    "title": "Prepare sprint report",
+    "description": "Summarize weekly progress.",
+    "status": "Completed",
+    "employee_id": 3
+  }
+]
