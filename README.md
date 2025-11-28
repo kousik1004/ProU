@@ -22,7 +22,7 @@ It is built using **FastAPI + SQLite + SQLAlchemy**, following clean modular arc
 
 ---
 
-# Tech Stack
+## Tech Stack
 
 - **Python 3.10+**
 - **FastAPI**
@@ -33,7 +33,7 @@ It is built using **FastAPI + SQLite + SQLAlchemy**, following clean modular arc
 
 ---
 
-# Installation & Setup
+## Installation & Setup
 
 ### Clone the repository
 
@@ -66,23 +66,23 @@ Run the Server
 uvicorn app.main:app --reload
 ```
 
-API Base URL:
+## API Base URL:
 
 ```bash
 http://127.0.0.1:8000
 ```
 
-Swagger Docs:
+## Swagger Docs:
 
 ```bash
 http://127.0.0.1:8000/docs
 ```
 
-# JWT Authentication Guide
+## JWT Authentication Guide
 
-## 1. Login to Get Token
+### 1. Login to Get Token
 
-### POST /auth/login
+POST /auth/login
 
 ### Request:
 
@@ -102,27 +102,27 @@ http://127.0.0.1:8000/docs
 }
 ```
 
-## 2. Authorize in Swagger
+### 2. Authorize in Swagger
 
 Click Authorize → paste token.
 Then protected routes will work.
 
-# Testing
+## Testing
 
-## Public Endpoints (No Login Needed)
+### Public Endpoints (No Login Needed)
 
 GET /employees
 GET /employees/{id}
 GET /tasks
 GET /tasks/{id}
 
-## Protected Endpoints (JWT Required)
+### Protected Endpoints (JWT Required)
 
 POST /tasks
 PUT /tasks/{id}
 DELETE /tasks/{id}
 
-# Key discussions
+## Key discussions
 
 - Employee email is unique.
 - Tasks may exist without assignment (nullable employee_id).
@@ -130,6 +130,6 @@ DELETE /tasks/{id}
 - Argon2 is used for secure password hashing.
 - SQLite used for simplicity and portability.
 
-# Conclusion
+## Conclusion
 
 This backend implements all required functionalities & bonus authentication features.
