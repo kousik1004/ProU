@@ -66,13 +66,13 @@ Run the Server
 uvicorn app.main:app --reload
 ```
 
-## API Base URL:
+### API Base URL:
 
 ```bash
 http://127.0.0.1:8000
 ```
 
-## Swagger Docs:
+### Swagger Docs:
 
 ```bash
 http://127.0.0.1:8000/docs
@@ -122,7 +122,7 @@ POST /tasks
 PUT /tasks/{id}
 DELETE /tasks/{id}
 
-## Key discussions
+## Assumptions
 
 - Employee email is unique.
 - Tasks may exist without assignment (nullable employee_id).
